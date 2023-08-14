@@ -1,0 +1,626 @@
+
+.container{
+	max-width: 1200px;
+}
+.head-menu ul{position: relative;}
+.head-menu ul li .sub-menu{
+	background: #fff;
+	/* width: 100%;*/
+	position: absolute;
+	top:100px;
+	z-index: 99;
+	left: 0px;
+	visibility: hidden;
+	transition: .2s ease-out;
+}
+.text-homesale{
+	font-size: 12px;
+}
+
+.head-menu ul li .sub-menu h3{font-size: 15px;}
+.head-menu ul li:hover>.sub-menu{
+	visibility: visible;
+	transition: .3s ease-in;
+	transform: translateY(-20px);
+	top:60px;
+}
+header .menu-multi-mobile{
+	z-index: 10;
+	left:0;
+	background: white;
+	height: 100000px;
+	display: none;
+}
+
+header .menu-multi-mobile h2{
+	line-height: 0.2;
+}
+header .overplay{
+	height: 100000px;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	right: 0;
+	display: none;
+}
+/*CSS FOR HOMESLIDER*/
+.homeslider ol li hr{height: 1px}
+.homeslider ol li.active hr{
+	background: #f00;
+}
+.homeslider ol li{
+	height: 0;
+	border-top: 0;
+}
+.homeslider .news h2{font-size: 15px;text-transform: uppercase;}
+.homeslider-right .media-body{
+	font-size: 14px;
+}
+.homesale .homesale-body .card-body{
+	padding: 12px;
+}
+.homesale .homesale-body .sales span{
+	background-color: #ff7500;
+	color: #fff;
+	padding: 2px 5px 2px 25px;
+	font-size: 13px;
+	position: relative;
+}
+.homesale .homesale-body .sales span:before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: -10px;
+	left: -8px;
+	width: 26px;
+	height: 32px;
+	background: url("../images/fire.png");
+}
+.homecontent h3 a{
+	font-size: 18px;
+}
+.homesale .homesale-body ol li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: orange;
+}
+.homesale .owl-dots .active span{
+	background-color: red !important;
+}
+.homesale .owl-nav .owl-prev{
+	background: red;
+	position: absolute;
+	top: 35%;
+	left: -15px;
+
+}
+.homesale .owl-nav .owl-prev img{
+	transform: rotate(180deg);
+}
+.homesale .owl-nav span{
+	font-size: 80px;
+}
+
+.homesale .owl-nav .owl-next{
+	position: absolute;
+	background: red;
+	top: 35%;
+	right: -15px;
+}
+.homesale .item:hover{
+	border: 1px solid #D6D6D6;
+}
+
+.homeaccessories .category{
+	background: #e5e5e5;
+}
+.homeaccessories .add-accessories h3 a{
+	font-size: 13px;
+}
+.homeaccessories .add-accessories h3 h5{
+	font-size: 13px;
+}
+
+
+.homecate .catebody .media-body ul li{
+	font-size: 13px;
+
+}
+.homecate .catebody .media-body ul li a{
+	color: #4f4949ad;
+	width: 59%;
+	padding: 5px;
+}
+footer a{
+	font-size: 14px;
+}
+/** css mobile**/
+.sale-mobile .info-sale{
+	position: absolute;
+	top: 0px;
+	right:0px;
+	font-size: 12px;
+	background: red;
+}
+.sale-mobile .card>a{
+	margin: 0 auto
+}
+
+.accessories-mobile .col-3{
+	background-color: white;
+}
+.multiSelect .multiProd .owl-item:nth-child(5n+0) {
+	margin-right: 0 !important;
+  }
+.multiSelect .multiProd{
+	padding-left: 1.1875rem;
+	padding-right: 1.1875rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media(max-width: 768px){
+	.nav-scroller {
+		position: relative;
+		z-index: 2;
+		height: 2.75rem;
+		overflow-y: hidden;
+	}
+	.nav-scroller .nav {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		padding-bottom: 1rem;
+		margin-top: -1px;
+		/*overflow-x: auto;*/
+		text-align: center;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	}
+	.catebody img{
+		width: 60px;
+		height: 60px;
+	}
+	footer .col-xl-7{
+		display: none;
+
+	}
+}
+@media(max-width: 375px){
+		/*.container{
+			max-width: 1230px;
+			}*/
+			.homecontent h3 a{
+				font-size: 14px;
+				color: #0d0d0d;
+			}
+			.sale-mobile .card-text span{
+				font-size: 13px !important;
+			}
+			.homesale .owl-dots {
+				display: none;
+			}
+			.catetitle h2 a{
+				font-size: 14px !important;
+			}
+			.lapBuyFast .media-body ul li{
+				font-size: 12px;
+			}
+			.m-price{
+				font-size: 14px;
+			}
+			.accessories-mobile h6{
+				font-size: 12px;
+			}
+			.sale-mobile .item-sale ul li a{
+				font-size: 11px;
+				background-color: white;
+				margin: 1px;
+			}
+			.item-sale {
+				position: relative;
+				z-index: 2;
+				height: 2.75rem;
+				overflow-y: hidden;
+			}
+			.item-sale .nav {
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-wrap: nowrap;
+				flex-wrap: nowrap;
+				padding-bottom: 1rem;
+				margin-top: -1px;
+				/*overflow-x: auto;*/
+				text-align: center;
+				white-space: nowrap;
+				-webkit-overflow-scrolling: touch;
+			}
+
+		}
+		@media (max-width: 576px) {
+			.owl-item{
+				width: 156px !important;
+			}
+			.card-header img{
+				height: 3.5rem;
+			}
+			.badge{
+				font-size: 55%;
+				margin-right: 0.1rem !important;
+			}
+			.price-sale{
+				font-size: 1.25rem;
+			}
+			.slCPL a{
+				font-size: 0.7rem !important;
+			}
+			.multiSelect .multiProd{
+				padding-left: 0.6875rem;
+				padding-right: 0.6875rem;
+
+			}
+			.multiSelect .multiProd .owl-item:nth-child(2n+0) {
+				margin-right: 0 !important;
+			  }
+			.multiSelect #myTab li{
+				padding-left: 3px;
+				padding-right: 3px;
+				padding-bottom: 5px;
+			}
+			.multiSelect #myTab li a{
+				padding: 0.1875rem;
+				font-size: 14px;
+				border-top-left-radius: unset;
+			    border-top-right-radius: unset;
+
+			}
+			.multiSelect #myTab li a span{
+				height: 34px;
+				width: 34px;
+
+			}
+			.btn-floating i{
+				font-size: 1.3125rem !important;
+				line-height: 35px !important;
+			}
+		}.container{
+			max-width: 1200px;
+		}
+		.head-menu ul{position: relative;}
+		.head-menu ul li .sub-menu{
+			background: #fff;
+			/* width: 100%;*/
+			position: absolute;
+			top:100px;
+			z-index: 99;
+			left: 0px;
+			visibility: hidden;
+			transition: .2s ease-out;
+		}
+		.text-homesale{
+			font-size: 12px;
+		}
+
+		.head-menu ul li .sub-menu h3{font-size: 15px;}
+		.head-menu ul li:hover>.sub-menu{
+			visibility: visible;
+			transition: .3s ease-in;
+			transform: translateY(-20px);
+			top:60px;
+		}
+		header .menu-multi-mobile{
+			z-index: 10;
+			left:0;
+			background: white;
+			height: 100000px;
+			display: none;
+		}
+
+		header .menu-multi-mobile h2{
+			line-height: 0.2;
+		}
+		header .overplay{
+			height: 100000px;
+			background: rgba(0, 0, 0, 0.7);
+			z-index: 10;
+			right: 0;
+			display: none;
+		}
+		/*CSS FOR HOMESLIDER*/
+		.homeslider ol li hr{height: 1px}
+		.homeslider ol li.active hr{
+			background: #f00;
+		}
+		.homeslider ol li{
+			height: 0;
+			border-top: 0;
+		}
+		.homeslider .news h2{font-size: 15px;text-transform: uppercase;}
+		.homeslider-right .media-body{
+			font-size: 14px;
+		}
+		.homesale .homesale-body .card-body{
+			padding: 12px;
+		}
+		.homesale .homesale-body .sales span{
+			background-color: #ff7500;
+			color: #fff;
+			padding: 2px 5px 2px 25px;
+			font-size: 13px;
+			position: relative;
+		}
+		.homesale .homesale-body .sales span:before{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			top: -10px;
+			left: -8px;
+			width: 26px;
+			height: 32px;
+			background: url("../images/fire.png");
+		}
+		.homecontent h3 a{
+			font-size: 18px;
+		}
+		.homesale .homesale-body ol li{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: orange;
+		}
+		.homesale .owl-dots .active span{
+			background-color: red !important;
+		}
+		.homesale .owl-nav .owl-prev{
+			background: red;
+			position: absolute;
+			top: 35%;
+			left: -15px;
+
+		}
+		.homesale .owl-nav .owl-prev img{
+			transform: rotate(180deg);
+		}
+		.homesale .owl-nav span{
+			font-size: 80px;
+		}
+
+		.homesale .owl-nav .owl-next{
+			position: absolute;
+			background: red;
+			top: 35%;
+			right: -15px;
+		}
+		.homesale .item:hover{
+			border: 1px solid #D6D6D6;
+		}
+
+		.homeaccessories .category{
+			background: #e5e5e5;
+		}
+		.homeaccessories .add-accessories h3 a{
+			font-size: 13px;
+		}
+		.homeaccessories .add-accessories h3 h5{
+			font-size: 13px;
+		}
+
+
+		.homecate .catebody .media-body ul li{
+			font-size: 13px;
+
+		}
+		.homecate .catebody .media-body ul li a{
+			color: #4f4949ad;
+			width: 59%;
+			padding: 5px;
+		}
+		footer a{
+			font-size: 14px;
+		}
+		/** css mobile**/
+		.sale-mobile .info-sale{
+			position: absolute;
+			top: 0px;
+			right:0px;
+			font-size: 12px;
+			background: red;
+		}
+		.sale-mobile .card>a{
+			margin: 0 auto
+		}
+
+		.accessories-mobile .col-3{
+			background-color: white;
+		}
+		.multiSelect .multiProd .owl-item:nth-child(5n+0) {
+			margin-right: 0 !important;
+		  }
+		.multiSelect .multiProd{
+			padding-left: 1.1875rem;
+			padding-right: 1.1875rem;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.select-toplike-body{
+			background: linear-gradient(-180deg,#f8d47b,#e4cc96);
+		}
+		.pad-section{
+			padding-top: 20px;
+			padding-bottom: 23px;
+			padding-left: 20px;
+			padding-right: 20px;
+
+		}
+		.select-event >div,.section-trend .catebody,.section-hot .hot-body{
+			background: linear-gradient(-180deg,#f64655a3,#cd313edb);
+		}
+
+		.section-multi ul li:first-child{
+			padding-left: 0;
+		}
+
+		.section-multi .products-mobile >div >div:nth-child(5n){
+			margin-right: 0 !important;
+		}
+
+
+		.box-countdown{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #ffffff;
+			font-weight: 600;
+			font-size: 23px;
+		}
+		.box-countdown .box-time{
+			list-style: none;
+			display: flex;
+		}
+		.box-countdown .box-time li{
+			display: flex !important;
+			text-align: center;
+		}
+		.box-countdown .box-time li .time{
+			line-height: -1;
+			 width: 34px;
+			 height: 34px;
+			 color: black;
+			 background: #ffffff;
+			 border-radius: 4px;
+
+		}
+		.box-countdown .box-time li .separate{
+			margin-right:7px;
+			margin-left: 7px;
+		}
+		.box-countdown .box-time li{
+			display: inline-block;
+	   }
+		@media(max-width: 768px){
+			.nav-scroller {
+				position: relative;
+				z-index: 2;
+				height: 2.75rem;
+				overflow-y: hidden;
+			}
+			.nav-scroller .nav {
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-wrap: nowrap;
+				flex-wrap: nowrap;
+				padding-bottom: 1rem;
+				margin-top: -1px;
+				/*overflow-x: auto;*/
+				text-align: center;
+				white-space: nowrap;
+				-webkit-overflow-scrolling: touch;
+			}
+			.catebody img{
+				width: 60px;
+				height: 60px;
+			}
+			footer .col-xl-7{
+				display: none;
+
+			}
+		}
+		@media(max-width: 375px){
+				/*.container{
+					max-width: 1230px;
+					}*/
+					.homecontent h3 a{
+						font-size: 14px;
+						color: #0d0d0d;
+					}
+					.sale-mobile .card-text span{
+						font-size: 13px !important;
+					}
+					.homesale .owl-dots {
+						display: none;
+					}
+					.catetitle h2 a{
+						font-size: 14px !important;
+					}
+					.lapBuyFast .media-body ul li{
+						font-size: 12px;
+					}
+					.m-price{
+						font-size: 14px;
+					}
+					.accessories-mobile h6{
+						font-size: 12px;
+					}
+					.sale-mobile .item-sale ul li a{
+						font-size: 11px;
+						background-color: white;
+						margin: 1px;
+					}
+					.item-sale {
+						position: relative;
+						z-index: 2;
+						height: 2.75rem;
+						overflow-y: hidden;
+					}
+					.item-sale .nav {
+						display: -ms-flexbox;
+						display: flex;
+						-ms-flex-wrap: nowrap;
+						flex-wrap: nowrap;
+						padding-bottom: 1rem;
+						margin-top: -1px;
+						/*overflow-x: auto;*/
+						text-align: center;
+						white-space: nowrap;
+						-webkit-overflow-scrolling: touch;
+					}
+
+				}
+				@media (max-width: 576px) {
+					.owl-item{
+						width: 156px !important;
+					}
+					.card-header img{
+						height: 3.5rem;
+					}
+					.badge{
+						font-size: 55%;
+						margin-right: 0.1rem !important;
+					}
+					.price-sale{
+						font-size: 1.25rem;
+					}
+					.slCPL a{
+						font-size: 0.7rem !important;
+					}
+					.multiSelect .multiProd{
+						padding-left: 0.6875rem;
+						padding-right: 0.6875rem;
+
+					}
+					.multiSelect .multiProd .owl-item:nth-child(2n+0) {
+						margin-right: 0 !important;
+					  }
+					.multiSelect #myTab li{
+						padding-left: 3px;
+						padding-right: 3px;
+						padding-bottom: 5px;
+					}
+					.multiSelect #myTab li a{
+						padding: 0.1875rem;
+						font-size: 14px;
+						border-top-left-radius: unset;
+						border-top-right-radius: unset;
+
+					}
+					.multiSelect #myTab li a span{
+						height: 34px;
+						width: 34px;
+
+					}
+					.btn-floating i{
+						font-size: 1.3125rem !important;
+						line-height: 35px !important;
+					}
+				}

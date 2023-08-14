@@ -1,0 +1,121 @@
+.container{
+	max-width: 1200px;
+}
+.head-menu ul{position: relative;}
+.head-menu ul li .sub-menu{
+	background: #fff;
+	/* width: 100%;*/
+	position: absolute;
+	top:100px;
+	z-index: 99;
+	left: 0px;
+	visibility: hidden;
+	transition: .2s ease-out;
+}
+.text-homesale{
+	font-size: 12px;
+}
+
+.head-menu ul li .sub-menu h3{font-size: 15px;}
+.head-menu ul li:hover>.sub-menu{
+	visibility: visible;
+	transition: .3s ease-in;
+	transform: translateY(-20px);
+	top:60px;
+}
+header .menu-multi-mobile{
+	z-index: 10;
+	left:0;
+	background: white;
+	height: 100000px;
+	display: none;
+}
+
+header .menu-multi-mobile h2{
+	line-height: 0.2;
+}
+header .overplay{
+	height: 100000px;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	right: 0;
+	display: none;
+}
+.content .homeMenuMobile1 li{
+	font-size: 13px;
+}
+.products-mobile span{
+	font-size: 12px;
+}
+.nameProduct a{
+	font-size: 14px;
+}
+.describe li{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+.price{
+	font-size: 16px;
+}
+.products-mobile .sales {
+	position: absolute;
+	top: 20px;
+	right: 5px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+}
+.products-mobile .col-xl-3:hover >.card{
+	box-shadow: 1px 2px 7px  rgba(0,0,0,.21);
+}
+
+.products-mobile .images-pro{
+	margin: 0 auto;
+
+}
+.homeProducts h2{
+	font-size: 18px;
+	padding: 20px;
+}
+
+
+.items-search{
+	overflow-y: scroll;
+	height: 250px;
+}
+@media(max-width: 768px){
+	.nav-scroller {
+		position: relative;
+		z-index: 2;
+		height: 2.75rem;
+		overflow-y: hidden;
+	}
+	.nav-scroller .nav {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		padding-bottom: 1rem;
+		margin-top: -1px;
+		/*overflow-x: auto;*/
+		text-align: center;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media(max-width: 375px){
+	.products-seen .item a img{
+		width: 100px !important;
+		height: 100px !important;
+	}
+	.products-seen .item .card{
+		height: 250px;
+		width: 170px;
+	}
+	.homeProducts>ul .items-select{
+		flex-direction: inherit !important;
+	}
+}

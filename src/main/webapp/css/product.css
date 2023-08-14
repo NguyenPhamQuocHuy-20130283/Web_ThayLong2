@@ -1,0 +1,220 @@
+.container{
+	max-width: 1200px;
+}
+.head-menu ul{position: relative;}
+.head-menu ul li .sub-menu{
+	background: #fff;
+	/* width: 100%;*/
+	position: absolute;
+	top:100px;
+	z-index: 99;
+	left: 0px;
+	visibility: hidden;
+	transition: .2s ease-out;
+}
+.text-homesale{
+	font-size: 12px;
+}
+
+.head-menu ul li .sub-menu h3{font-size: 15px;}
+.head-menu ul li:hover>.sub-menu{
+	visibility: visible;
+	transition: .3s ease-in;
+	transform: translateY(-20px);
+	top:60px;
+}
+header .menu-multi-mobile{
+	z-index: 10;
+	left:0;
+	background: white;
+	height: 100000px;
+	display: none;
+}
+
+header .menu-multi-mobile h2{
+	line-height: 0.2;
+}
+header .overplay{
+	height: 100000px;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	right: 0;
+	display: none;
+}
+.font-text{
+	font-size: 13px;
+}
+.fa-circle{
+	font-size: 10px;
+}
+.size{
+	font-size: 14px;
+}
+.size-text{
+	font-size: 18px;
+}
+.products-iphone .card-header{
+	padding: 5px 5px 5px 10px;
+}
+.prices{
+	font-size: 26px;
+}
+.endow-pro{
+	font-size: 12px;
+}
+.name-products{
+	font-size: 24px;
+	opacity: 0.9;
+}
+.name-product ul li{
+	margin: 1px;
+}
+.note{
+	font-size: 12px;
+	color: #666;
+}
+
+.find-place{
+	border: 1px solid #dadada;
+}
+.search-place{
+	display: none;
+}
+.products-old{
+	border: 1px solid #dadada;
+}
+.name-mobile{
+	font-size: 14px;
+	opacity: 0.8;
+}
+.introduce-products .card ul li{
+	margin-right: 5px;
+	font-size: 13px;
+}
+
+.evaluate{
+	opacity: 0.6;
+	font-size: 13px;
+}
+.introduce-products ul li .active{
+	border-bottom: 2px solid red;
+}
+#pills-home-tab,#pills-profile-tab,#pills-recent-tab{
+	font-size: 38px;
+}
+
+.title-details{
+	font-size: 20px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.content-details{
+	margin-top: 10px;
+	font-size: 17px;
+	margin-left: 20px;
+}
+.content-next{
+	margin-top: 5px;
+}
+.background-seeMore{
+	background: linear-gradient(to top,rgba(255,255,255,0) 10%,black 80%,rgba(255,255,255,1) 40%);
+	width: 100%;
+	height: 130px;
+}
+.info-show{
+	display: none;
+}
+.knot button{
+	border: solid 1px #b2b2b2;
+}
+.progress{
+	height: 5px;
+	width: 80%;
+	margin: 0 auto;
+}
+.stars{
+	position: absolute;
+	left: -15px;
+	top: -12px;
+}
+.number-evaluate{
+	position: absolute;
+	right: 0px;
+	top: -10px;
+	opacity: 0.5;
+}
+.evaluate-people .col-xl-3,.evaluate-people .col-xl-4,.evaluate-people .col-xl-5{
+	border: 1px solid rgba(0,0,0,.125);
+}
+.evaluate-people ul li i{
+	font-size: 24px;
+	margin-left: 5px;
+}
+.titles{
+	font-size: 18px;
+	padding: 15px;
+	border-bottom: 1px solid #e3e3e3;
+	color: #3d3d3d;
+}
+.text-comment{
+	font-size: 13px;
+	padding: 9px;
+	width: 100%;
+	height: 54px;
+	box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.2);
+}
+.nameApple{
+	color: #505050;
+	font-size: 14px;
+}
+.productseen .item:hover .card{
+	box-shadow: 1px 2px 7px  rgba(0,0,0,.21);
+}
+.introduce-products .tab-pane .item:hover .card{
+	box-shadow: 1px 2px 7px  rgba(0,0,0,.21);
+}
+#navbar-example3{
+	display: none;
+	z-index: 100;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+}
+.character{
+	border-bottom: 2px solid red;
+	margin: 0 auto;
+}
+footer a{
+	font-size: 14px;
+	line-height: 2;
+}
+.details-product .menu-run .media i{
+	font-size: 30px;
+}
+.details-product .menu-run .media p{
+	font-size: 11px;
+}
+
+@media(max-width: 375px){
+	#navbar-example3{
+		display: none !important;
+	}
+	.products-iphone .card-shop{
+		width: 48% !important;
+	}
+}
+#myTabProduct .nav-item a{
+background-color: white !important;
+color: black !important;
+}
+
+#myTabProduct .nav-item a.active{
+background-color: red !important;
+color: white !important;
+}
+
+
+#myTabProductList .nav-item a.active{
+background-color: red !important;
+color: white !important;
+}

@@ -1,0 +1,261 @@
+.row-sm {
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+}
+
+.row-sm > .col,
+.row-sm > [class*="col-"] {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+.row-nm {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.row-nm > .col,
+.row-nm > [class*="col-"] {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.row-md {
+    margin-right: 0.05rem;
+    margin-left: 0.05rem;
+}
+
+
+.row-mdd {
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+.row-mdd > .col,
+.row-mdd > [class*="col-"] {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: #ff7500;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset;
+    color: black;
+}
+
+
+.owl-nav .owl-prev img {
+    transform: rotate(180deg);
+}
+
+.hvr-grow_color:hover > a {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #dc3545 !important;
+}
+
+footer a {
+    color: #000000;
+    font-size: 1rem !important;
+}
+
+footer .container .row > div {
+    margin-bottom: 0.8rem;
+}
+
+
+.cdt-filter__block .filter .form-check a > input,
+.cdt-filter__block .filter .form-check a > label {
+    cursor: pointer;
+}
+
+.products-seen .owl-item {
+    margin: 0 auto !important;
+    width: 259px !important
+}
+
+
+.container {
+    max-width: 1320px !important;
+}
+
+footer#footer a {
+    color: #dc3545 !important;
+}
+
+.pills-primary .nav-link.active {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+ul.stepper > .step-after:not(:last-of-type):after {
+    background-color: #4285f4;
+}
+
+.form {
+    /* top:0rem */
+}
+
+.tab-content {
+    padding-top: 1rem !important;
+}
+
+.products-iphone .owl-item {
+    margin: 0 auto !important;
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.fnSz, .ip-placeholder::placeholder {
+    font-size: 0.9rem;
+}
+
+.r4px {
+    border-radius: 4px;
+    border: 1px solid rgb(157, 157, 157);
+    outline: none;
+}
+
+.pos {
+    position: absolute;
+    z-index: 999;
+    background: #ffffff;
+    left: 50%;
+    top: 0;
+    width: 450px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+#hidd {
+    cursor: pointer;
+}
+
+.form_img-prod {
+    width: 80px;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    #pills-tabContent .owl-stage {
+        /* cart product width=152px height=410px  */
+        /* visible product 4x2 */
+        width: 610px !important;
+        height: 820px;
+
+    }
+
+    #pills-tabContent {
+        padding: 0;
+    }
+
+    #pills-tabContent .owl-item {
+        width: 23% !important;
+        margin: 3.5px !important;
+    }
+
+    #pills-tabContent .card-body {
+        padding: 5px;
+    }
+
+    #pills-tabContent .overflow-hidden {
+        display: none;
+    }
+
+    #pills-tabContent .flCAL {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+}
+
+.owl-stage {
+    width: 30000px !important;
+}
+
+
+.owl-carousel .owl-item {
+    /* border: 1px solid #f1f1f1; */
+    border-radius: 5px !important;
+}
+
+
+.owl-nav button span::before {
+    content: "";
+    border-top: 3px solid #666;
+    border-right: 3px solid #666;
+    content: '';
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    width: 22px;
+    left: 10px;
+    transform: rotate(-135deg);
+}
+
+.owl-nav .owl-prev span::before {
+    right: 20px;
+    transform: rotate(-135deg) !important;
+}
+
+.owl-nav .owl-next span::before {
+    left: 0px;
+    transform: rotate(45deg) !important;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-nav button {
+    background: rgba(255, 255, 255, .9) !important;
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.owl-carousel .owl-next {
+    box-shadow: -6px 0 4px rgb(0 0 0 / 5%), -4px 0 4px rgb(0 0 0 / 9%);
+    border-radius: 4px 0 0 4px !important;
+    right: -25px !important;
+}
+
+.owl-carousel .owl-prev {
+    box-shadow: -6px 0 4px rgb(0 0 0 / 5%), -4px 0 4px rgb(0 0 0 / 9%);
+    border-radius: 0px 4px 4px 0px !important;
+    left: -25px !important;
+}
+
+.tab-index .nav-tabs .nav-item .active {
+    color: white !important;
+    background: red !important;
+    border: 0 !important;
+}
+
+.tab-index .nav-tabs .nav-item a {
+    border: 0 !important;
+}
+
+.brand .owl-nav button {
+    box-shadow: none !important;
+    color: red !important;
+
+}
+
+.mb {
+    margin-bottom: 45px;
+}
